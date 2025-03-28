@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Pano';
+    src: url(Font/HW\ Pano\ Regular.ttf);
+}
+
+
+html{
+
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
+  
+}
+
+.hero-section{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+
+    height: 100vh;
+
+    background: rgb(220,176,12);
+    background: linear-gradient(120deg, rgb(169, 135, 10) 47%, rgba(238,205,8,1) 100%);
+
+    background-image: linear-gradient( 91.7deg,  rgba(135,206,235,1) 7.3%, rgba(255,154,139,1) 40.3%, rgba(255,195,160,1) 57.9%, rgba(255,215,0,1) 93.5% );
+    
+
+}
+
+
+h1{
+
+
+    
+    color: black;
+
+    font-size: 60px;  
+    
+    text-align: center;
+    
+    text-transform: capitalize;
+
+    max-width: 10ch;
+
+    font-family: 'Pano';
+    
+}
+
+h3{
+
+
+    padding: 10;
+
+    color: rgb(36, 36, 36);
+
+    font-family: 'Pano';
+
+
+}
+
+
