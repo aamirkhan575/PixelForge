@@ -32,12 +32,20 @@ html{
 
     height: 100vh;
 
-    background: rgb(220,176,12);
-    background: linear-gradient(120deg, rgb(169, 135, 10) 47%, rgba(238,205,8,1) 100%);
+}
 
-    background-image: linear-gradient( 91.7deg,  rgba(135,206,235,1) 7.3%, rgba(255,154,139,1) 40.3%, rgba(255,195,160,1) 57.9%, rgba(255,215,0,1) 93.5% );
-    
-
+#bg-video{
+  
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
 }
 
 
@@ -45,7 +53,7 @@ h1{
 
 
     
-    color: black;
+    color:white;
 
     font-size: 60px;  
     
@@ -64,7 +72,7 @@ h3{
 
     padding: 10;
 
-    color: rgb(36, 36, 36);
+    color:white;
 
     font-family: 'Pano';
 
